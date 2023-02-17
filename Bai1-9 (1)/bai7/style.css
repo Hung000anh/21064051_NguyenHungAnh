@@ -1,0 +1,22 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+.ctb img
+{
+    vertical-align: middle;
+}
+.ctc img
+{
+    vertical-align:text-top;
+}
+
+
+.cte
+{
+    display:flex;
+    justify-content: center;
+}

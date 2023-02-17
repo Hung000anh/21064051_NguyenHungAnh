@@ -1,0 +1,45 @@
+.a
+{
+    border: 10px solid rgb(228, 174, 107);
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.a th,.a td
+{
+    border: 1px solid black;
+}
+.a td
+{
+    text-align: center;
+}
+.b
+{
+    margin: 20px auto;
+    background-color: rgb(251, 211, 111);
+}
+.b th,.b td
+{
+    border: 1px solid black;
+}
+.b u
+{
+    color:rgb(191, 32, 32);
+}
+
+.cc
+{
+    width:fit-content;
+    margin:auto;
+    background-color: burlywood;
+    padding: 10px 1px 3px 5px;
+    border:1px solid black;
+}
+.c
+{
+    background-color:rgb(238, 109, 238);
+}
+.c,.c tr, .c td
+{
+    border: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.content 
+{
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding:20px;
+}
+.content2
+{
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    margin: 30px auto ;
+    flex-direction: column;
+    padding:20px;
+}
+.content2 a
+{
+    color: blue;
+}

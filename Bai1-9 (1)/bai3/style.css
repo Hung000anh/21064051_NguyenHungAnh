@@ -1,0 +1,20 @@
+.pa p
+{
+    font-size: 30px;
+}
+.textbox
+{
+    background-color: rgba(255,208,120,255);
+}
+.textbox .flex-star
+{
+    text-align: start;
+}
+.textbox .flex-center
+{
+    text-align: center;
+}
+.textbox .flex-end
+{
+    text-align: end;
+}

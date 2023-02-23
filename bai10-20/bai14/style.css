@@ -1,0 +1,15 @@
+.form-label
+{
+    min-width: 180px;
+}
+.form-row
+{
+    display: flex;
+}
+.IFU
+{
+    width:fit-content;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+}

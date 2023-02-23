@@ -1,0 +1,36 @@
+
+.survey-form
+{
+    background-color: rgb(252, 207, 123);
+    max-width: 900px;
+    padding: 20px;
+    margin:  0 auto;
+    border: 1px solid black;
+    width: fit-content;
+}
+.survey-form h1
+{
+    text-align: center;
+}
+.survey-form .submit .submit-btt
+{
+    width: 200px;
+    margin: auto;
+}
+.survey-form .submit .submit-btt 
+{
+    display: flex;
+    justify-content: space-between
+}
+.form-user
+{
+    width: fit-content;
+}
+.survey-from-2
+{
+
+    padding: 20px;
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 20px auto;
+}

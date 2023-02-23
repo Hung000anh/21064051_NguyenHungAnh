@@ -1,0 +1,14 @@
+.contarnel
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin: auto;
+}
+.contact
+{
+    padding:20px;
+    border: 1px solid black;
+    width: fit-content;
+}

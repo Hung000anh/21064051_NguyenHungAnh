@@ -1,0 +1,211 @@
+
+
+/* h1 { font-family: Arial, Helvetica, sans-serif; text-align: center; border: thin #000099 dashed}
+h2 { font-family: Georgia, "Times New Roman", Times, serif; font-size: 9px; font-style: italic; color: 
+#CC0000; text-decoration: blink}
+h3 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; 
+color: #FF3399}
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-style: italic; color: 
+#FFFF00}
+h5 { font-family: "Courier New", Courier, mono; font-size: 24px; font-style: italic; color: #009999}
+h6 { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: lighter; 
+color: #009900} */
+
+.td-left
+{
+    text-align: left;
+}
+.td-right {
+    color: #993738;
+    text-align: right;
+    border: 1px solid black;
+  }
+.bai4 ,.td-right, .td-left, caption
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hao
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.hao th, .hao td{
+    border: 1px solid red;
+}
+#exmpale {
+    background-image: url(/img/Screenshot\ 2023-03-02\ 120558.png);
+    background-size: cover;
+    height: 500px;
+}  
+.headcontent {
+    display: flex;
+    flex-direction: row; /* sắp xếp các phần tử theo chiều ngang */
+    justify-content: space-around; /* căn các phần tử theo chiều ngang và giãn khoảng cách đều nhau */
+  }
+  .headcontent p
+  {
+    max-width: 250px;
+  }
+.footcontent
+{
+    display: flex;
+    flex-direction: row; /* sắp xếp các phần tử theo chiều ngang */
+    justify-content: space-around
+}
+.footcontent p
+{
+  max-width: 250px;
+}
+.bai7 .content p
+{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: solid 1px aqua;
+}
+.bai8 .box-color-1
+{
+    
+    border: 10px solid;
+    border-color: #85C226 #ffff00 #3700ff #DF127B;
+    width: fit-content;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.bai8 .box-color-2
+{
+    border-style: solid dotted groove double;
+    border-width: 10px;
+    border-color: #85C226 #ffff00 #3700ff #DF127B;
+    width: fit-content;
+    padding: 50px 200px;
+    text-align: center;
+}
+.bai8 .box-color-3
+{
+    border: solid;
+    border-width: 5px 10px 15px 20px;
+    border-color: #85C226 #ffff00 #3700ff #DF127B;
+    width: fit-content;
+    padding: 50px 200px;
+    text-align: center;
+}
+.bai8 .box-color-4
+{
+    border-radius: 0px 30px 70px 20px;
+    border: solid;
+    border-width: 5px 10px 15px 20px;
+    border-color: #85C226 #ffff00 #3700ff #DF127B;
+    width: fit-content;
+    padding: 50px 200px;
+    text-align: center;
+}
+.bai8 .box-color-5
+{
+    border-width: 4px 30px 4px 40px;
+    border-style: groove ridge dashed groove;
+    border-color: #cc0000;
+    border-radius: 100px 100px 0 0;
+}
+.bai8 .box-color-6
+{
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #3700ff;
+    border-radius: 20px;
+}
+.bai8 .box-color-7
+{
+    text-align: center;
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+}
+.bai8 .box-color-8
+{
+    text-align: center;
+    border-width: 10px;
+    padding: 20px 100px;
+    border-style: solid;
+    border-color: rgb(0, 137, 210);
+    border-radius: 20px 100px 100px 20px;
+}
+.bai8 .box-color-9
+{
+    border-color: #85C226 #ffff00 #3700ff #DF127B;
+    text-align: center;
+    border: solid;
+    border-width: 10px;
+    padding: 20px 100px;
+    border-color: rgb(0, 137, 210);
+    background-color: orange;
+    border-radius: 0px 120px 0px 120px;
+}
+.bai8 button
+{
+    font-size: large;
+    font-weight: 700;
+    color: antiquewhite;
+    padding: 20px 100px;
+    border-radius: 20px;
+    background-color: #00c2fc;
+    cursor: pointer;
+}
+.bai9 .divbox
+{
+    width: fit-content;
+    text-transform: uppercase;
+    margin: auto;
+}
+.bai9 .divbox a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+}
+.bai9 .divbox tr td
+{
+    border:1px solid black;
+    padding: 30px 20px;
+    text-align: center;
+}
+.bai10 .boxmove {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bai10 .boxmove .box-lr {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 2s normal infinite;
+  }
+  
+  @keyframes move {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(-200%) rotate(180deg);
+    }
+    75% {
+        transform: translateX(200%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+  .bai10 .boxmove .box-lr:hover
+  {
+    animation-play-state: paused;
+  }

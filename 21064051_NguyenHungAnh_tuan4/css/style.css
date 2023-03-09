@@ -1,0 +1,272 @@
+.contalner
+{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.box
+{
+    background-color: green;
+    position:fixed;
+    position: relative;
+    color: whitesmoke;
+}
+.bai2 h1
+{
+    position: relative;
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 
+0 -3px 3px #000000;
+}
+.bai2 .ribbon
+{
+    background-color: red;
+    text-shadow: none;
+    font-size: 14px;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -20px;
+    top: -10px;
+}
+.bai3 ul
+{
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.bai3 img
+{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.bai3 ul li .imgc
+{
+    margin: 3px;
+    border: 1px solid blue;
+}
+.bai3 ul li:hover .imgc img
+{
+    width: 300px;
+    height: 300px;
+}
+.flexbox
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.flexbox .box p
+{   
+    text-align: center;
+}
+.bai14
+{
+
+width:300px;
+
+height:170px;
+
+background-color: #6FAC21;
+
+opacity:0.8;
+
+border-radius: 10px;
+
+transition: all 1s linear;
+
+margin:50px 50px;
+
+text-align:justify;
+ border-bottom:dashed;
+
+border-left:double;
+
+border-right:dashed;
+
+border-top: double;
+ border-color:red;
+}
+.bai14:hover
+{
+    transform: scale(1) rotate(1440deg);
+    opacity:0.8;
+}
+.bai15 input
+{
+    width: 100px;
+    transition: all 0.5s linear;
+}
+.bai15 input:focus
+{
+    width: 200px;
+}
+.bai16 ul li
+{
+    text-align: center;
+    padding: 5px 20px;
+    width: 100px;
+    list-style-type: none;
+    border: 2px dashed rgb(255, 255, 255);
+    margin: 5px;
+    background-color: rgb(56, 168, 220);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 3px  rgb(56, 168, 220);
+}
+.bai16 ul li a
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.bai17
+{
+    background-color: rgba(153,55,56,255);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.bai17 a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.bai18
+{
+    background-color: rgba(0,128,1,255);
+}
+.bai18 ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.a ul
+{
+    display: none;
+}
+.bai18 li
+{
+    font-weight: 600;
+    color: #ffffff;
+}
+.a:hover ul
+{
+    background-color:rgba(0,128,1,255);
+    display: block;
+    position: absolute;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 0;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bai19 ul
+{
+    padding: 0;
+    justify-content: space-around;
+    display: flex;
+}
+.bai19 ul li
+{
+    flex-grow: 1;
+    background-color:#2f3036;
+    margin-left: 1px;
+}
+.bai19 ul li ul
+{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+.bai19 ul li ul li a
+{
+    display: none;
+    padding:0;
+    font-weight: 600;
+    color: #000000;
+}
+.bai19 ul li:hover ul li a
+{
+    display: block;
+    padding:0;
+    font-weight: 600;
+    color: #000000;
+
+}
+.bai19 ul li:hover ul 
+{
+    display: block;
+    padding:0;
+    font-weight: 600;
+    color: #000000;
+    position: absolute;
+    background-color: #2f3036;
+}
+.bai19 ul li ul li:hover
+{
+    background-color: #20c28e;
+}
+.bai19 ul li a
+{
+    font-weight: 600;
+    color: #ffffff;
+}
+.bai19 ul li ul li
+{
+    padding:0;
+    background-color:#f2f3f2
+}
+.bai20 a
+{
+    text-align: center;
+    text-transform: none;
+}
+.bai20 ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.bai20 li
+{
+    margin-top: 3px;
+    padding: 5px 20px;
+    width: 60px;
+    background-color: rgb(56, 168, 220);
+    border: 2px dashed white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 3px  rgb(56, 168, 220);
+}
+.bai20 ul li
+{
+    text-align: center;
+    position: relative;
+}
+.bai20 ul li ul 
+{
+    display: none;
+    position: absolute;
+    padding:  0px 80px;
+    top: -5px;
+}
+.bai20 ul li:hover ul 
+{
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+.bai20 ul li ul li
+{
+    width: 100px;
+}

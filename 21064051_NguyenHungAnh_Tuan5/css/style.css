@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Section 
+{
+    height: 200px;
+}
+.child 
+{
+    height: 150px;
+}
+.child-1
+{
+    height: 75px;
+}
+.header,.footer
+{
+    height: 40px;
+}
+.Section ,.header,.footer
+{
+    background-color: coral;
+}
+
+.header22
+{
+    background-color: gray;
+}
+.header22 h1
+{
+    color: white;
+}
+.nav22
+{
+    background-color: rgb(200, 198, 198);
+}
+.article22 ul
+{
+    margin-left: 20px;
+    list-style-type: circle;
+}
+ul li
+{
+    color: white;
+    text-transform: uppercase;
+}
+.ul22 li
+{
+    color: rgb(84, 215, 255);
+}

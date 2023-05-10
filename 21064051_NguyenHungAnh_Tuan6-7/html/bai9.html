@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bảng cửu chương</title>
+	<meta charset="utf-8">
+</head>
+<body>
+    <input type="text" id="input">
+    <button type="button" onclick="Chuyendoi()"> Chuyển đổi nhiệt độ</button>
+	<h1>Bảng cửu chương từ 1 đến 12</h1>
+
+	<script>
+        function Chuyendoi()
+        {
+            var x = document.getElementById('input').value;
+            var result = fahrenheitToCelsius(x);
+            document.getElementById("input").value = result
+        }
+		// Chuyển đổi từ độ F sang độ C
+		function fahrenheitToCelsius(degFahren) {
+			return (degFahren - 32) * 5 / 9;
+		}
+
+		// Hiển thị bảng cửu chương
+		for (var i = 1; i <= 12; i++) {
+			document.write('<h2>Bảng cửu chương ' + i + '</h2>');
+			for (var j = 1; j <= 12; j++) {
+				var result = i * j;
+				document.write(i + ' * ' + j + ' = ' + result + '<br>');
+			}
+		}
+	</script>
+
+</body>
+</html>
